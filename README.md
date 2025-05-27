@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
- <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6097334991137618"
-     crossorigin="anonymous"></script>
+<meta name="google-adsense-account" content="ca-pub-6097334991137618">
   <meta charset="UTF-8">
   <title>¿Cómo estás?</title>
   <style>
