@@ -28,7 +28,7 @@
 </head>
 <body>
 
-  <h1>¿Cómo estás?</h1>
+  <h1>¿Cómo estássss?</h1>
 
   <button onclick="mostrarRespuesta('feliz')">FELIZ</button>
   <button onclick="mostrarRespuesta('triste')">TRISTE</button>
