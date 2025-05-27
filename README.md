@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="es">
 <head>
   <meta charset="UTF-8">
@@ -28,17 +29,26 @@
 
   <h1>¿Cómo estás?</h1>
 
-  <button onclick="mostrarRespuesta()">FELIZ</button>
-  <button onclick="mostrarRespuesta()">TRISTE</button>
+  <button onclick="mostrarRespuesta('feliz')">FELIZ</button>
+  <button onclick="mostrarRespuesta('triste')">TRISTE</button>
 
   <div id="respuesta">
     <h2>Escucha esto</h2>
-    <img src="https://media.giphy.com/media/3oriO0OEd9QIDdllqo/giphy.gif" alt="Escucha esto">
+    <img id="albumImagen" src="" alt="Álbum">
   </div>
 
   <script>
-    function mostrarRespuesta() {
-      document.getElementById('respuesta').style.display = 'block';
+    function mostrarRespuesta(estado) {
+      const imagen = document.getElementById('albumImagen');
+      const respuestaDiv = document.getElementById('respuesta');
+
+      if (estado === 'feliz') {
+        imagen.src = "https://media.giphy.com/media/l4FGzQdu1a2f1gWlS/giphy.gif"; // Canción Animal GIF
+      } else if (estado === 'triste') {
+        imagen.src = "https://media.giphy.com/media/l3q2K5jinAlChoCLS/giphy.gif"; // Bocanada GIF
+      }
+
+      respuestaDiv.style.display = 'block';
     }
   </script>
 
